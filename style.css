@@ -1,0 +1,94 @@
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+nav {
+    width: 100%;
+    padding: 10px 0px 10px 0px;
+    background-color:#cccccc;
+}
+
+nav img {
+    padding-left: 10px;
+    width: 60px;
+    float:inline-start;
+    font-family: 'Anton', sans-serif;
+}
+
+ul {
+    margin: auto;
+    text-align: center;
+}
+
+li{
+    padding: 20px 40px 0px 40px;
+}
+
+.logo img {
+    text-align: center;
+}
+
+.heroImg {
+    height: 500px;
+    padding: 25px;
+}
+
+.heroImg img {
+    width: 125px;
+    float: left;
+    padding: 20px 30px 10px 0px;
+}
+
+.content {
+    width: 650px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #373738;
+}
+
+footer ul {
+    text-align: center;
+}
+
+footer li {
+    padding: 20px 40px 20px 40px;
+    color: white
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    line-height:140%;
+}
+
+h2 {
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+    color: #DB6D8D;
+    margin-bottom: -20px;
+}
+
+h3 {
+    font-family: 'Anton', sans-serif;
+    font-size: 1.5rem;
+    color: 	#515151;
+}
+
+button {
+    height: 30px;
+    width: 140px;
+    background-color: #DB6D8D;
+    border-radius: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: .875rem;
+    color: white;
+}
