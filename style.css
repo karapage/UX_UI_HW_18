@@ -11,24 +11,29 @@
 
 nav {
     width: 100%;
-    padding: 10px 0px 10px 0px;
-    background-color:#cccccc;
+    position: fixed;
+    background-color: #194350;
+    margin: -10px;
+    padding-top: 10px;
 }
 
 nav img {
-    padding-left: 10px;
-    width: 60px;
+    padding: 20px 0px 5px 20px;
+    width: 110px;
     float:inline-start;
     font-family: 'Anton', sans-serif;
 }
 
 ul {
-    margin: auto;
+    margin: 10px 0px 10px 0px;
     text-align: center;
 }
 
 li{
     padding: 20px 40px 0px 40px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+    color: #ffffff;
 }
 
 .logo img {
@@ -36,8 +41,10 @@ li{
 }
 
 .heroImg {
-    height: 500px;
-    padding: 25px;
+    display:flex;
+    padding: 5px 0px;
+    background-color: #efeded;
+    margin: -10px;
 }
 
 .heroImg img {
@@ -48,11 +55,13 @@ li{
 
 .content {
     width: 650px;
-    margin: 0 auto;
+    padding: 0px 20px 0px 20px;
+    margin: 125px auto 50px;
 }
 
 footer {
-    background-color: #373738;
+    background-color: #194350;
+    margin: -10px;
 }
 
 footer ul {
@@ -66,29 +75,80 @@ footer li {
 
 p {
     font-family: 'Roboto', sans-serif;
-    font-size: .875rem;
+    font-size: 1rem;
+    color: #515151;
     line-height:140%;
 }
 
-h2 {
+h1 {
     font-family: 'Anton', sans-serif;
-    font-size: 2rem;
-    color: #DB6D8D;
+    font-size: 2.5rem;
+    color: #FF8882;
     margin-bottom: -20px;
 }
 
+h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    color: #515151;
+    margin-left: 20px;
+}
+
 h3 {
-    font-family: 'Anton', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.5rem;
     color: 	#515151;
 }
 
+h4 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.25rem;
+    color: 	#515151;
+}
+
 button {
-    height: 30px;
-    width: 140px;
-    background-color: #DB6D8D;
+    height: 40px;
+    width: 150px;
+    background-color: #FF8882;
     border-radius: 20px;
     font-family: 'Roboto', sans-serif;
     font-size: .875rem;
     color: white;
 }
+
+.flexContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+
+.mySkills {
+    margin-top: 76px;
+}
+
+.workGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
+    grid-template-rows: repeat;
+    padding: 20px;
+    grid-template-areas: 
+    "grid-item"
+    ;
+}
+
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: left;
+}
+
+@media only screen and  (max-width: 600) {
+        flex-direction: column 
+}) {
+        flex-direction: column 
+}}} 
+}) {
+        flex-direction: column 
+}}
